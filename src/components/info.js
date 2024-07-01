@@ -2,17 +2,14 @@ import React from 'react';
 
 const Info = () => {
   return (
-    <div className="flex items-center justify-around px-4 md:px-36 bg-white" data-aos="fade-up">
+    <div className="flex items-center justify-around px-4 md:px-36 bg-white ml-10 sm:ml-0" data-aos="fade-up">
       <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="text-center md:text-left">
-            <p className="text-2xl font-light text-gray-800 w-[80%]" data-aos="fade-right">
+            <p className="text-2xl font-light text-gray-800 w-[80%] ml-5 sm:ml-0" data-aos="fade-right">
               I’m Hiral Nanwani, a seasoned HR Professional with a passion to coach job seekers to confidently succeed in interviews.
             </p>
-            <hr className="my-4 border-gray-300 w-[80%]" data-aos="fade-right" />
-            <p className="mt-4 text-gray-600 font-semibold" data-aos="fade-right">
-              ALIGARH MUSLIM UNIVERSITY.
-            </p>
+           
           </div>
           <div className="text-center md:text-left">
             <p className="text-base font-medium text-gray-800" data-aos="fade-left">
