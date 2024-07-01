@@ -13,7 +13,7 @@ const Hero = () => {
               className="max-w-md h-auto rounded-lg shadow-md"
             />
           </div>
-          <div className="text-center md:text-left pr-20">
+          <div className="text-center flex  flex-col w-screen lg:w-full  justify-center md:text-left pr-20">
             <p className="text-3xl font-bold text-gray-800">
               Skill is the unified force of experience, intellect, and passion
               in their operation
