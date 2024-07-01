@@ -1,19 +1,19 @@
-import React from "react"
-import Mirage from "../images/Mirage.png"
+import React from 'react';
+import Mirage from "../images/Mirage.png";
 
 const Hero = () => {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
+    <div className="flex items-center justify-center min-h-screen bg-white" data-aos="fade-up">
       <div className="container mx-auto p-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="flex justify-center">
+          <div className="flex justify-center" data-aos="fade-right">
             <img
               src={Mirage}
               alt="Person"
               className="max-w-md h-auto rounded-lg shadow-md"
             />
           </div>
-          <div className="text-center flex  flex-col w-screen lg:w-full  justify-center md:text-left pr-20">
+          <div className="text-center md:text-left pr-20" data-aos="fade-left">
             <p className="text-3xl font-bold text-gray-800">
               Skill is the unified force of experience, intellect, and passion
               in their operation
@@ -23,7 +23,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
