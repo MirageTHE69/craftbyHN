@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FaInstagram, FaTwitter, FaEnvelope } from 'react-icons/fa';
-import FullScreenDialog from './FullScreenDialog'; // Adjust the path according to your file structure
+import FullScreenDialog from './fullScreenDialog'; // Adjust the path according to your file structure
 
 const Footer = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
