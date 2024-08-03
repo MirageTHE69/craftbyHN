@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="text-start md:text-left  sm:ml-0 sm:pr-20" data-aos="fade-left">
-            <p className="text-sm font-bold text-gray-800">
+            <p className="text-sm md:text-lg font-bold text-gray-800 font-playfair">
               Skill is the unified force of experience, intellect, and passion
               in their operation
             </p>

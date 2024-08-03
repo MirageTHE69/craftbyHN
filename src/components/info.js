@@ -12,7 +12,7 @@ const Info = () => {
            
           </div>
           <div className="text-start md:text-left pr-2">
-            <p className="text-base font-medium text-gray-800" data-aos="fade-left">
+            <p className="text-base font-medium text-gray-800 font-playfair" data-aos="fade-left">
               Welcome to my personalized career development platform, where I offer expert guidance to students and new professionals aiming to excel in their chosen fields. With a wealth of industry experience, I specialize in crafting impactful resumes that highlight your strengths and achievements effectively. Beyond resumes, I provide comprehensive support in honing essential skills such as interview preparation, networking strategies, and professional growth tactics. Together, we’ll navigate the competitive job market and tailor your approach to meet industry demands. Whether you’re just starting out or seeking to advance your career, let’s collaborate to unlock your full potential and secure the opportunities you deserve.
             </p>
           </div>
