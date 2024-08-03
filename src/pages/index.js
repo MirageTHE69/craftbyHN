@@ -21,7 +21,7 @@ const IndexPage = () => {
   }, []);
 
   return (
-    <div className="h-screen">
+    <div className="h-screen ">
       <Navbar />
       <Hero />
       <Info />
