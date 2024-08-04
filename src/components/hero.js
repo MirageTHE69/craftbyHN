@@ -1,5 +1,5 @@
 import React from 'react';
-import Mirage from "../images/Mirage.png";
+import Hiral from "../images/HIRAL.jpg"
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
           <div className="flex justify-center" data-aos="fade-right">
             <div className=" p-2 rounded-lg ">
               <img
-                src={Mirage}
+                src={Hiral}
                 alt="Person"
                 className="max-w-md h-auto p-14 sm:p-0"
               />
