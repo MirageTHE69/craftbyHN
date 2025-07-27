@@ -24,13 +24,13 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-postcss',
+    "gatsby-plugin-postcss",
 
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `nterview Insights`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,

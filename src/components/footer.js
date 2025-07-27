@@ -19,10 +19,7 @@ const Footer = () => {
         <div className="pb-6 mb-6 w-full">
           <h2 className="text-2xl font-bold mt-2">HIRAL NANWANI</h2>
           <p className="text-gray-600 mt-4 mx-auto text-base text-bold text-2    max-w-lg font-playfair">
-            As a highly experienced career development specialist, I provide
-            top-notch resume reviews, writing services, cover letter crafting,
-            and interview preparation. If you're seeking personalized and
-            professional support to enhance your career prospects, email me.
+            Your career goals matter and I am here to enhance your prospects.
           </p>
         </div>
         <div className="mt-2">

@@ -3,38 +3,34 @@ import React from "react"
 const Info = () => {
   return (
     <div
-      className="flex items-center justify-around  md:px-36 bg-white ml-10 sm:ml-0"
+      className="flex justify-center px-4 md:px-10 bg-white"
       data-aos="fade-up"
     >
-      <div className="container mx-auto ">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          <div className="text-start md:text-left">
-            <p
-              className="text-2xl font-light text-gray-800 w-[80%]  sm:ml-0"
-              data-aos="fade-right"
-            >
-              I’m Hiral Nanwani, a seasoned HR Professional with a passion to
-              coach job seekers to confidently succeed in interviews.
-            </p>
-          </div>
-          <div className="text-start md:text-left pr-2">
-            <p
-              className="text-base font-medium text-gray-800 font-playfair"
-              data-aos="fade-left"
-            >
-              Welcome to my personalized career development platform, where I
-              offer expert resume reviews and career guidance for students and
-              professionals. With extensive industry experience, I help you
-              refine your resume to effectively showcase your strengths and
-              achievements. In addition to resume reviews, I provide support in
-              interview preparation, networking strategies, and professional
-              growth. Whether you're entering the job market or seeking career
-              advancement, I’m here to help you stand out and secure the
-              opportunities you deserve. Let’s refine your approach and elevate
-              your career prospects together.{" "}
-            </p>
-          </div>
-        </div>
+      <div className="max-w-3xl w-full text-center  p-6 ">
+        <p
+          className="text-base font-medium text-gray-800 font-playfair leading-relaxed"
+          data-aos="fade-left"
+        >
+          👋 Welcome to Interview Insights — <strong>My Story & Purpose</strong>{" "}
+          I came to Canada as a young international student with aspiring
+          dreams. Like many newcomers, I started out working front-line service
+          jobs to make ends meet while pursuing my goals in HR. I moved to GTA
+          to tap into a bigger job market, I began my job search with high hopes
+          — but reality hit hard. Even with an HR background, it took me 9
+          months of relentless effort before I landed my first HR role. To boost
+          my chances, I also studied for and passed the CHRP exam, doing
+          everything I could to stand out in a competitive space. I know what
+          it’s like — as so many newcomers do — to refresh job boards daily,
+          wait anxiously for that one callback, feel underprepared, get nervous
+          in interviews, and wonder if your breakthrough will ever come. Now,
+          with over 5 years of HR experience in both the public and private
+          sectors, I want to pay it forward. I am here to help students, recent
+          grads, and early-career professionals bridge that gap between where
+          they are and where they want to be. Through targeted resume reviews,
+          mock interview coaching, and practical career guidance, I’ll help you
+          present your best self with confidence. Let’s work together to turn
+          your potential into a meaningful opportunity.
+        </p>
       </div>
     </div>
   )
