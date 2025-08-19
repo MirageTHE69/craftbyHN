@@ -15,7 +15,7 @@ const Services = () => {
         "Let me craft a compelling resume that highlights your skills and experience effectively.",
     },
     {
-      number: "4",
+      number: "3",
       title: "INTERVIEW SIMULATION",
       description:
         "Practice and refine your interview skills through realistic simulations tailored to your target industry.",
